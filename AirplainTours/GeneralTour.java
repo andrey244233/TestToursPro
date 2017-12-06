@@ -1,11 +1,14 @@
 package AirplainTours;
 
-public class GeneralTour {
+public abstract class GeneralTour {
    private String typeName;
    private String transport;
    private String food;
    private int days;
    private int number;
+
+
+   public abstract void showFields();
 
 
    public String getTypeName() {
